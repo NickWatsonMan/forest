@@ -1,0 +1,8 @@
+config {
+    type: "view"
+}
+
+SELECT 
+    COUNT(*) as products_count
+    , SUM(product_price) as products_price_sum
+FROM ${ref("product_source")}
