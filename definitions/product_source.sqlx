@@ -1,0 +1,31 @@
+config {
+    type: "table"
+}
+
+SELECT 
+    'Apple' as product_name
+    , 100 as product_price
+
+UNION ALL
+
+SELECT 
+    'Milk' as product_name
+    , 200 as product_price
+
+UNION ALL
+
+SELECT 
+    'Potatoe' as product_name
+    , 75 as product_price
+
+UNION ALL
+
+SELECT 
+    'Tomatoe' as product_name
+    , 50 as product_price
+
+UNION ALL
+
+SELECT 
+    'Cherry' as product_name
+    , 500 as product_price
